@@ -32,6 +32,7 @@ try:
         
         print("The Distance between Object and Sensor: " + str(distance))
         
+        ##prompt different message depending on the distance 
         if distance > 100:
             print("Object is very far.")
         elif 50 < distance < 100:
